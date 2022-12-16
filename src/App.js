@@ -1,12 +1,14 @@
-import React from 'react'
-import Counter from './Counter'
+import React from "react";
+import Body from "./Body";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div>
-      <Counter/>
+      <Navbar />
+      <Body />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
