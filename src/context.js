@@ -1,6 +1,6 @@
 import React, { createContext, useState } from "react";
 export const StudentContext = createContext([]);
-function StudentCom({ children }) {
+function StudentCom({ children ,props }) {
   const [data, setData] = useState([
     { id: 1, name: "Toshmat ", surname: "Toshmatov" },
     { id: 2, name: "Gulmat ", surname: "Gulmatov" },

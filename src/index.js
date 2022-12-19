@@ -12,3 +12,4 @@ root.render(
     </StudentCom>
   </React.StrictMode>
 );
+
